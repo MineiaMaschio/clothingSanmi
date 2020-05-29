@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Tela Principal</title>
     <meta charset="UTF-8">
@@ -8,7 +9,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e9f3d585ef.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 </head>
+
 <body>
     <div class="container-fluid pt-3 my-3 bg-light text-danger">
         <div class="card">
@@ -17,7 +21,8 @@
                     <a class="navbar-brand" href="#">
                         <img src="imagens/logoSanmi.png" alt="logo" style="width: 100px;">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -27,14 +32,14 @@
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                  Roupas
+                                    Roupas
                                 </a>
                                 <div class="dropdown-menu">
-                                  <a class="dropdown-item" href="#">Vestido</a>
-                                  <a class="dropdown-item" href="#">Jaquetas</a>
-                                  <a class="dropdown-item" href="#">Saias</a>
+                                    <a class="dropdown-item" href="#">Vestido</a>
+                                    <a class="dropdown-item" href="#">Jaquetas</a>
+                                    <a class="dropdown-item" href="#">Saias</a>
                                 </div>
-                              </li>
+                            </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Sale</a>
                             </li>
@@ -50,18 +55,58 @@
                         </ul>
                         <form class="form-inline">
                             <div class="input-group">
-                              <div class="input-group-prepend">
-                                <img src="imagens/iconepesquisar.png" alt="icone pesquisar" style="width: 20px;">
-                              </div>
-                              <input type="text" class="form-control" placeholder="Pesquisar">
-                            </div>    
-                          </form>
+                                <div class="input-group-prepend">
+                                    <img src="imagens/iconepesquisar.png" alt="icone pesquisar" style="width: 20px;">
+                                </div>
+                                <input type="text" class="form-control" placeholder="Pesquisar">
+                            </div>
+                        </form>
                     </div>
                 </nav>
             </div>
             <div class="card-body"></div>
-            <div class="card-footer">Footer</div>
-          </div>
+        </div>
     </div>
+    <main></main>
+    <footer id="rodape">
+        <section>
+            <h3>Institucional</h3>
+            <ul>
+                <a href="formaEnvio.html">
+                    <li>Formas de envio</li>
+                </a>
+                <a href="formaPagamento.html">
+                    <li>Formas de pagamento</li>
+                </a>
+                <a href="sobre.html">
+                    <li>Sobre a clothing SANMI</li>
+                </a>
+            </ul>
+        </section>
+        <section>
+            <h3>Ajuda e Suporte</h3>
+            <ul>
+                <a href="trocaEDevolucoes.html">
+                    <li>Trocas e devoluções</li>
+                </a>
+            </ul>
+        </section>
+        <section id="faleConosco">
+            <h3>Fale conosco</h3>
+            <p><i class="fab fa-whatsapp"></i>(47) 3232-3232</p>
+            <p><i class="fas fa-phone"></i>(47) 99999-5555</p>
+        </section>
+        <section id="redeSocial">
+            <h3>Redes sociais</h3>
+            <div>
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+
+        <p id="diretosReservados">© 2020 Clothing SANMI. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>

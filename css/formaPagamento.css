@@ -1,0 +1,15 @@
+main{
+    background-color: #fff;
+}
+
+main section ol{
+    padding-left: 30px;
+}
+
+main section ol li{
+    text-decoration: underline;
+}
+
+main section h1{
+    text-align: center;
+}

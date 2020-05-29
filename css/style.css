@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+main{
+    overflow: auto;
+}
+
+#rodape{
+    margin-top: 45px;
+    background-color: #ff8a84;
+    overflow: auto;
+    color: #fff;
+}
+
+#rodape section{
+    margin: 10px;
+    padding: 5px;
+    width: 303px;
+    height: 100px;
+    float: left;
+}
+
+#rodape ul{
+    margin-left: 30px;
+}
+
+#rodape section ul a{
+    text-decoration: none; 
+    color: #fff;
+}
+
+#rodape p{
+    text-align: center;
+    clear: both;
+}
+
+#diretosReservados{
+    margin: 0;
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#rodape section h3{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#faleConosco p i{
+    margin: 0px 20px 7px 20px;
+}
+
+#faleConosco p{
+    text-align: left;
+}
+
+#redeSocial i{
+    font-size: 45px;
+    margin: 5px 15px;
+    color: #fff;
+}
+
+#redeSocial div{
+    padding-left: 7px;
+}
