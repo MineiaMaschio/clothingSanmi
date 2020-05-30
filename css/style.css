@@ -7,66 +7,6 @@ main{
     overflow: auto;
 }
 
-#rodape{
-    margin-top: 45px;
-    background-color: #ff8a84;
-    overflow: auto;
-    color: #fff;
-}
-
-#rodape section{
-    margin: 10px;
-    padding: 5px;
-    width: 303px;
-    height: 100px;
-    float: left;
-}
-
-#rodape ul{
-    margin-left: 30px;
-}
-
-#rodape section ul a{
-    text-decoration: none; 
-    color: #fff;
-}
-
-#rodape p{
-    text-align: center;
-    clear: both;
-}
-
-#diretosReservados{
-    margin: 0;
-    display: block;
-    font-size: 15px;
-    margin-top: 20px;
-}
-
-#rodape section h3{
-    margin-left: 50px;
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-#faleConosco p i{
-    margin: 0px 20px 7px 20px;
-}
-
-#faleConosco p{
-    text-align: left;
-}
-
-#redeSocial i{
-    font-size: 45px;
-    margin: 5px 15px;
-    color: #fff;
-}
-
-#redeSocial div{
-    padding-left: 7px;
-}
-
 #menu{
     background-color: #ff8a84;
     color: #fff;
@@ -120,11 +60,28 @@ main{
     left:0;
 }
 
+#inputPesquisa{
+    width: 27px;
+    height: 30px;
+    margin: 7px 0px;
+    background-image: url(../imagens/lupa.png);
+    background-repeat: no-repeat;
+    padding-left: 27px;
+    border-radius: 20px;
+    background-color: #ff8a84;
+    border: 0px;
+}
+
+#inputPesquisa:hover, #inputPesquisa:focus{
+    border-radius: 10px;
+    width: 100px;
+}
 
 #logo-main {
     display: block;
     margin: 20px auto;
 }
+
 ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -134,7 +91,62 @@ li:hover{
     background-color: lightcoral;
 }
 
+#rodape{
+    margin-top: 45px;
+    background-color: #ff8a84;
+    overflow: auto;
+    color: #fff;
+}
 
+#rodape section{
+    margin: 10px;
+    padding: 5px;
+    width: 303px;
+    height: 100px;
+    float: left;
+}
 
-  
+#rodape ul{
+    margin-left: 30px;
+}
 
+#rodape section ul a{
+    text-decoration: none; 
+    color: #fff;
+}
+
+#rodape p{
+    text-align: center;
+    clear: both;
+}
+
+#diretosReservados{
+    margin: 0;
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#rodape section h3{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#faleConosco p i{
+    margin: 0px 20px 7px 20px;
+}
+
+#faleConosco p{
+    text-align: left;
+}
+
+#redeSocial i{
+    font-size: 45px;
+    margin: 5px 15px;
+    color: #ccc;
+}
+
+#redeSocial div{
+    padding-left: 7px;
+}
