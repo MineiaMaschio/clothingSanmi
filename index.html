@@ -11,63 +11,44 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/e9f3d585ef.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="container-fluid pt-3 my-3 bg-light text-danger">
-        <div class="card">
-            <div class="card-header">
-                <nav class="navbar navbar-expand-sm bg-danger justify-content-center navbar-dark">
-                    <a class="navbar-brand" href="#">
-                        <img src="imagens/logoSanmi.png" alt="logo" style="width: 100px;">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                    Roupas
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Vestido</a>
-                                    <a class="dropdown-item" href="#">Jaquetas</a>
-                                    <a class="dropdown-item" href="#">Saias</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sale</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tendências</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Novidades</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre a marca</a>
-                            </li>
-                        </ul>
-                        <form class="form-inline">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <img src="imagens/iconepesquisar.png" alt="icone pesquisar" style="width: 20px;">
-                                </div>
-                                <input type="text" class="form-control" placeholder="Pesquisar">
-                            </div>
-                        </form>
-                    </div>
-                </nav>
-            </div>
-            <div class="card-body"></div>
+    <header id="menu" role="banner">
+        <div class="d-flex justify-content-end">   
+            <a id="icone" href=""><i class="fas fa-search"></i></a>
+            <a id="icone" href="html/login.html"><i class="fas fa-user"></i></a>
+            <a id="icone" href=""><i class="fas fa-shopping-cart"></i></a>
         </div>
-    </div>
-    <main></main>
+        <img id="logo-main" src="imagens/logoSanmi.png" width="150" alt="Logo Thing main logo">
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a id="submenu" class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Roupas</a>
+                        <div id="submenu" class="dropdown-menu">
+                            <a id="submenu" class="dropdown-item" href="#">Vestido</a>
+                            <a id="submenu" class="dropdown-item" href="#">Jaquetas</a>
+                            <a id="submenu" class="dropdown-item" href="#">Saias</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sale</a></li>
+                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Tendências</a></li>
+                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Novidades</a></li>
+                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sobre a marca</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+    </main>
     <footer id="rodape">
         <section>
             <h3>Institucional</h3>
