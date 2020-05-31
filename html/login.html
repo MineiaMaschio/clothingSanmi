@@ -53,21 +53,21 @@
     </header>
     <main>
         <section id="login">
-            <form action="#" method="post">
+            <form action="#" onsubmit="return validarLogin(this);" method="post">
                 <h1>Já sou cadastrado</h1>
                 <h3>Entrar com e-mail</h3>
-                <input type="email" id="emailLogin" placeholder="E-mail">
+                <input type="email" name="email" id="emailLogin" placeholder="E-mail">
                 <br>
-                <input type="password" placeholder="Senha">
+                <input type="password" name="senha" placeholder="Senha" id="senhaLogin">
                 <br>
                 <input type="checkbox" id="lembrame" name="lembrame">
                 <label for="lembrame" name="lembrame">Lembra-me</label>
                 <a href="#">Esqueci minha senha</a><br>
-                <input type="submit" value="Entrar">
+                <input type="submit" value="Entrar" onclick="validarLogin()">
             </form>
         </section>
         <section id="novoCadastro">
-            <form action="#" method="post">
+            <form action="#" method="post" onsubmit="return validarCadastro(this);">
                 <h1>Crie uma conta</h1>
                 <div>
                     <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -75,12 +75,12 @@
                     <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
                 </div>
                 <h3>Preencha todos os campos</h3>
-                <input type="text" onkeyup="validarCampos()" id="nomeCadastro" placeholder="Nome">
+                <input type="text" onkeyup="validarCampos()" id="nomeCadastro" placeholder="Nome" name="nome">
                 <br>
-                <input type="email" onkeyup="validarCampos()" name="emailCadastro" placeholder="E-mail"
+                <input type="email" onkeyup="validarCampos()" name="email" placeholder="E-mail"
                     id="emailCadastro">
                 <br>
-                <input type="password" onkeyup="validarCampos()" name="senhaCadastro" placeholder="Senha"
+                <input type="password" onkeyup="validarCampos()" name="senha" placeholder="Senha"
                     id="senhaCadastro">
                 <br>
                 <input type="submit" value="Cadastre-se">
