@@ -3,8 +3,16 @@
     padding: 0px;
 }
 
+body{
+    background-color: #fff;
+}
+
 main{
     overflow: auto;
+}
+
+h3{
+    font-size: 22px;
 }
 
 #menu{
@@ -121,7 +129,6 @@ h1 {
 }
 
 #rodape{
-    margin-top: 45px;
     background-color: #ff8a84;
     overflow: auto;
     color: #fff;
@@ -131,7 +138,7 @@ h1 {
     margin: 10px;
     padding: 5px;
     width: 303px;
-    height: 100px;
+    height: 120px;
     float: left;
 }
 
@@ -142,11 +149,13 @@ h1 {
 #rodape section ul a{
     text-decoration: none; 
     color: #fff;
+    font-size: 16px;
 }
 
 #rodape p{
     text-align: center;
     clear: both;
+    font-size: 15px;
 }
 
 #diretosReservados{
@@ -178,4 +187,16 @@ h1 {
 
 #redeSocial div{
     padding-left: 7px;
+}
+
+#redeSocial i:hover{
+    color: #fcf;
+}
+
+ol{
+    margin-left: 60px;
+}
+
+h1{
+    text-align: center;
 }

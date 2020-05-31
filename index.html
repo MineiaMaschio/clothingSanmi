@@ -2,199 +2,211 @@
 <html lang="en">
 
 <head>
-    <title>Tela Principal</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/e9f3d585ef.js" crossorigin="anonymous"></script>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Clothing SANMI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/e9f3d585ef.js" crossorigin="anonymous"></script>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  <link rel="sortcut icon" href="imagens/logoSanmi.ico" type="image/x-icon" />
 </head>
 
 <body>
-    <header id="menu" role="banner">
-        <div class="d-flex justify-content-end">   
-            <!--<a id="icone" href=""><i class="fas fa-search"></i></a>-->
-            <input type="text" placeholder="Pesquisa" id="inputPesquisa">
-            <a id="icone" href="html/login.html"><i class="fas fa-user"></i></a>
-            <a id="icone" href=""><i class="fas fa-shopping-cart"></i></a>
+  <header id="menu" role="banner">
+    <div class="d-flex justify-content-end">
+      <input type="text" placeholder="Pesquisa" id="inputPesquisa">
+      <a id="icone" href="html/login.html"><i class="fas fa-user"></i></a>
+      <a id="icone" href=""><i class="fas fa-shopping-cart"></i></a>
+    </div>
+    <img id="logo-main" src="imagens/logoSanmi.png" width="150" alt="Logo Thing main logo">
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a id="submenu" class="nav-link" href="#">Home</a></li>
+            <li class="nav-item dropdown">
+              <a id="submenu" class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                data-toggle="dropdown">Roupas</a>
+              <div id="submenu" class="dropdown-menu">
+                <a id="submenu" class="dropdown-item" href="#">Vestido</a>
+                <a id="submenu" class="dropdown-item" href="#">Jaquetas</a>
+                <a id="submenu" class="dropdown-item" href="#">Saias</a>
+              </div>
+            </li>
+            <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sale</a></li>
+            <li class="nav-item"><a id="submenu" class="nav-link" href="#">Tendências</a></li>
+            <li class="nav-item"><a id="submenu" class="nav-link" href="#">Novidades</a></li>
+            <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sobre a marca</a></li>
+          </ul>
         </div>
-        <a href="#"><img id="logo-main" src="imagens/logoSanmi.png" width="150" alt="Logo Thing main logo"></a>
-        <nav class="navbar navbar-expand-lg navbar-dark static-top">
-            <div class="container">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-              <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item dropdown">
-                        <a id="submenu" class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Roupas</a>
-                        <div id="submenu" class="dropdown-menu">
-                            <a id="submenu" class="dropdown-item" href="#">Vestido</a>
-                            <a id="submenu" class="dropdown-item" href="#">Jaquetas</a>
-                            <a id="submenu" class="dropdown-item" href="#">Saias</a>
-                        </div>
-                    </li>
-                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sale</a></li>
-                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Tendências</a></li>
-                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Novidades</a></li>
-                    <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sobre a marca</a></li>
-                </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="my-5 text-center container">
+      <div id="titulo" class="mb-5 text-left">
+        <h3>Destaques</h3>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <div class="carousel-nav-icon">
+              <i id="iconeSeta" class="fas fa-chevron-left"></i>
+            </div>
+          </a>
+        </div>
+        <div class="col-10">
+          <!--Start carousel-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center"
+                    class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center"
+                    class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                </div>
               </div>
             </div>
-          </nav>
-    </header>
-    <main>
-        <div class="my-5 text-center container">
-            <div id="titulo" class="mb-5 text-left"><h3>Destaques</h3></div>
-            <div class="row d-flex align-items-center">
-                <div class="col-1 d-flex align-items-center justify-content-center">
-                    <a href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <div class="carousel-nav-icon">
-                            <i id="iconeSeta" class="fas fa-chevron-left"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-10">
-                    <!--Start carousel-->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-         
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="row">
-                              <div  class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center" class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="row">
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center" class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!--End carousel-->
-               </div>
-               <div class="col-1 d-flex align-items-center justify-content-center"><a  href="#carouselExampleIndicators" data-slide="next">
-                  <div class="carousel-nav-icon">
-                    <i id="iconeSeta" class="fas fa-chevron-right"></i>
-                  </div>
-                  </a>
-               </div>
+          </div>
+          <!--End carousel-->
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators"
+            data-slide="next">
+            <div class="carousel-nav-icon">
+              <i id="iconeSeta" class="fas fa-chevron-right"></i>
             </div>
-         </div>
-         <div class="my-5 text-center container">
-            <div id="titulo" class="mb-5 text-left"><h3>Novidades</h3></div>
-            <div class="row d-flex align-items-center">
-                <div class="col-1 d-flex align-items-center justify-content-center">
-                    <a href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                        <div class="carousel-nav-icon">
-                            <i id="iconeSeta" class="fas fa-chevron-left"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-10">
-                    <!--Start carousel-->
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-         
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="row">
-                              <div  class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center" class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="row">
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                              <div class="col-12 col-md d-flex align-items-center justify-content-center" class="col-12 col-md d-flex align-items-center justify-content-center">
-                                <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!--End carousel-->
-               </div>
-               <div class="col-1 d-flex align-items-center justify-content-center"><a  href="#carouselExampleIndicators2" data-slide="next">
-                  <div class="carousel-nav-icon">
-                    <i id="iconeSeta" class="fas fa-chevron-right"></i>
-                  </div>
-                  </a>
-               </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="my-5 text-center container">
+      <div id="titulo" class="mb-5 text-left">
+        <h3>Novidades</h3>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <a href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <div class="carousel-nav-icon">
+              <i id="iconeSeta" class="fas fa-chevron-left"></i>
             </div>
-         </div>
-    </main>
-    <footer id="rodape">
-        <section>
-            <h3>Institucional</h3>
-            <ul>
-                <a href="formaEnvio.html">
-                    <li>Formas de envio</li>
-                </a>
-                <a href="formaPagamento.html">
-                    <li>Formas de pagamento</li>
-                </a>
-                <a href="sobre.html">
-                    <li>Sobre a clothing SANMI</li>
-                </a>
-            </ul>
-        </section>
-        <section>
-            <h3>Ajuda e Suporte</h3>
-            <ul>
-                <a href="trocaEDevolucoes.html">
-                    <li>Trocas e devoluções</li>
-                </a>
-            </ul>
-        </section>
-        <section id="faleConosco">
-            <h3>Fale conosco</h3>
-            <p><i class="fab fa-whatsapp"></i>(47) 3232-3232</p>
-            <p><i class="fas fa-phone"></i>(47) 99999-5555</p>
-        </section>
-        <section id="redeSocial">
-            <h3>Redes sociais</h3>
-            <div>
-                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-            </div>
-        </section>
+          </a>
+        </div>
+        <div class="col-10">
+          <!--Start carousel-->
+          <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
-        <p id="diretosReservados">© 2020 Clothing SANMI. Todos os direitos reservados.</p>
-    </footer>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center"
+                    class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                  <div class="col-12 col-md d-flex align-items-center justify-content-center"
+                    class="col-12 col-md d-flex align-items-center justify-content-center">
+                    <img src="imagens/img1.jpg" style="width: 250px;" alt="imagem">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End carousel-->
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators2"
+            data-slide="next">
+            <div class="carousel-nav-icon">
+              <i id="iconeSeta" class="fas fa-chevron-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="rodape">
+    <section>
+      <h3>Institucional</h3>
+      <ul>
+        <a href="html/formaEnvio.html">
+          <li>Formas de envio</li>
+        </a>
+        <a href="html/formaPagamento.html">
+          <li>Formas de pagamento</li>
+        </a>
+        <a href="html/sobre.html">
+          <li>Sobre a clothing SANMI</li>
+        </a>
+      </ul>
+    </section>
+    <section>
+      <h3>Ajuda e Suporte</h3>
+      <ul>
+        <a href="html/trocaEDevolucoes.html">
+          <li>Trocas e devoluções</li>
+        </a>
+      </ul>
+    </section>
+    <section id="faleConosco">
+      <h3>Fale conosco</h3>
+      <p><i class="fab fa-whatsapp"></i>(47) 3232-3232</p>
+      <p><i class="fas fa-phone"></i>(47) 99999-5555</p>
+    </section>
+    <section id="redeSocial">
+      <h3>Redes sociais</h3>
+      <div>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </section>
+
+    <p id="diretosReservados">© 2020 Clothing SANMI. Todos os direitos reservados.</p>
+  </footer>
 </body>
 
 </html>

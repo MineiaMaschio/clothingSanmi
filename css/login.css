@@ -3,15 +3,13 @@ body{
 }
 
 header{
-    background-color: #ff8a84;
-    height: 100px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 main{
     width: 954px;
     margin: 0 auto;
-    height: 389px;
+    height: 450px;
 }
 
 main section{
@@ -21,7 +19,7 @@ main section{
 
 #login{
     width: 400px;
-    height: 350px;
+    height: 400px;
     background-color: #ff8a84;
     color: #fff;
     border: 1px solid #ff8a84;
@@ -34,7 +32,6 @@ main section{
 }
 
 #login h3{
-    font-size: 22px;
     font-weight: lighter;
     padding-top: 53px;
 }
@@ -44,8 +41,10 @@ main section{
 }
 
 #login a{
-    margin-left: 110px;
+    margin-left: 93px;
     color: #fff;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 #login form input[type=submit]{
@@ -63,7 +62,7 @@ main section form input[type=submit], main section form button{
 }
 
 main section input[type=email], main section input[type=text],  main section input[type=password]{
-    width: 300px;
+    width: 335px;
     height: 30px;
     margin: 10px 0px;
     color: #000;
@@ -99,13 +98,14 @@ main section input[type=password]{
 
 #novoCadastro{
     width: 550px;
-    height: 350px;
+    height: 400px;
     color: #ff8a84;
     border: 1px solid #ff8a84;
 }
 
 #novoCadastro form h3{
     text-align: left;
+    margin: 0px;
     margin-left: 105px;
 }
 

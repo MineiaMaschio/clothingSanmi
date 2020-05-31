@@ -4,13 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/formaPagamento.css'>
     <script src="https://kit.fontawesome.com/e9f3d585ef.js" crossorigin="anonymous"></script>
+    <link rel="sortcut icon" href="../imagens/logoSanmi.ico" type="image/x-icon" />
     <title>Forma de pagamento</title>
 </head>
 
 <body>
+    <header id="menu" role="banner">
+        <div class="d-flex justify-content-end">
+            <input type="text" placeholder="Pesquisa" id="inputPesquisa">
+            <a id="icone" href="login.html"><i class="fas fa-user"></i></a>
+            <a id="icone" href=""><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <img id="logo-main" src="../imagens/logoSanmi.png" width="150" alt="Logo Thing main logo">
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a id="submenu" class="nav-link" href="../index.html">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a id="submenu" class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                data-toggle="dropdown">Roupas</a>
+                            <div id="submenu" class="dropdown-menu">
+                                <a id="submenu" class="dropdown-item" href="#">Vestido</a>
+                                <a id="submenu" class="dropdown-item" href="#">Jaquetas</a>
+                                <a id="submenu" class="dropdown-item" href="#">Saias</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sale</a></li>
+                        <li class="nav-item"><a id="submenu" class="nav-link" href="#">Tendências</a></li>
+                        <li class="nav-item"><a id="submenu" class="nav-link" href="#">Novidades</a></li>
+                        <li class="nav-item"><a id="submenu" class="nav-link" href="#">Sobre a marca</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section>
             <h1>Forma de Pagamento</h1>
@@ -55,9 +95,9 @@
         <section id="redeSocial">
             <h3>Redes sociais</h3>
             <div>
-                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
         </section>
 
