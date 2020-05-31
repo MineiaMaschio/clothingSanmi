@@ -107,6 +107,7 @@ main section input[type=password]{
     text-align: left;
     margin: 0px;
     margin-left: 105px;
+    font-weight: lighter;
 }
 
 #novoCadastro div, #novoCadastro form{
